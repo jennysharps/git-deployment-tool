@@ -18,10 +18,10 @@ Add the SSH key to your user
 2. Create a new key
 3. Paste the deploy key you generated on the server
 
-Set up service hook
-1. https://github.com/oodavid/server.com/admin/hooks
-2. Select the Post-Receive URL service hook
-3. Enter the URL to your deployment script - http://server.com/deploy.php
-4. Click Update Settings
+Set up service hook: https://help.github.com/articles/post-receive-hooks
+1. Open your repo on GitHub and go to its settings page
+2. Click "Service Hooks"
+3. Click "WebHook URLs"
+4. Enter your URL and click "Update Settings" (the url should point to the git_deploy.php file)
 
 ******************************************************************/
