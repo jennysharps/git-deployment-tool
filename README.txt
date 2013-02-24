@@ -1,7 +1,10 @@
 Git auto-deployment script
-based on Based on https://gist.github.com/1809044
+Based on https://gist.github.com/1809044
 
 /******************************************************************
+
+___________________________________________________________________
+
 This file should be included in the repo's root.  
 You must also install git on your server and create SSH keys with no password.
 
